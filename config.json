@@ -1,0 +1,15 @@
+{
+  "camera": 0,
+  "confidence": 0.75,
+  "stable_frames": 8,
+  "regions": {
+    "dealer": [0.05, 0.06, 0.95, 0.42],
+    "player": [0.05, 0.50, 0.95, 0.94]
+  },
+  "baseline": {
+    "min_area_fraction": 0.008,
+    "max_area_fraction": 0.35,
+    "min_match_margin": 0.06,
+    "corner_crop": [0.015, 0.02, 0.26, 0.19]
+  }
+}
